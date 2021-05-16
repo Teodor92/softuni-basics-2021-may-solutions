@@ -17,8 +17,8 @@ namespace _06.AreaOfFigures
             else if (figureType == "rectangle")
             {
                 double firstSide = double.Parse(Console.ReadLine());
-                double seocndSide = double.Parse(Console.ReadLine());
-                double area = firstSide * seocndSide;
+                double secondSide = double.Parse(Console.ReadLine());
+                double area = firstSide * secondSide;
                 Console.WriteLine($"{area:F3}");
             }
             else if (figureType == "circle")
