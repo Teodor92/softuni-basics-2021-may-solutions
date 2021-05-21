@@ -14,10 +14,10 @@ namespace _07.ToyShop
             int trucks = int.Parse(Console.ReadLine());
             int toysCount = puzzles + dolls + bears + toys + trucks;
             double profit = puzzles * 2.60 + dolls * 3 + bears * 4.10 + toys * 8.20 + trucks * 2;
-            
+
             if (toysCount >= 50)
             {
-                profit = profit - 0.25 * profit;
+                profit = profit * 0.75;
             }
 
             profit = profit * 0.9;
