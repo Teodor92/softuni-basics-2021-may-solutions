@@ -6,7 +6,22 @@ namespace _06.NumberInRange
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int number = int.Parse(Console.ReadLine());
+
+            // [-100,100] != 0
+
+            bool isInNumberRange = number >= -100 && number <= 100;
+            bool notZero = number != 0;
+            bool isInRange = isInNumberRange && notZero;
+
+            if (isInRange)
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No");
+            }
         }
     }
 }
