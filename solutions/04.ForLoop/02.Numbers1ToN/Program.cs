@@ -6,7 +6,12 @@ namespace _02.Numbers1ToN
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int startingNumber = int.Parse(Console.ReadLine());
+
+            for (int number = startingNumber; number >= 1; number -= 1)
+            {
+                Console.WriteLine(number);
+            }
         }
     }
 }

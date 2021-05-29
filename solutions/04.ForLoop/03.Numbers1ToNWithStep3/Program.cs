@@ -6,7 +6,12 @@ namespace _03.Numbers1ToNWithStep3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int endNumber = int.Parse(Console.ReadLine());
+
+            for (int number = 1; number <= endNumber; number += 3) 
+            {
+                Console.WriteLine(number);
+            }
         }
     }
 }
