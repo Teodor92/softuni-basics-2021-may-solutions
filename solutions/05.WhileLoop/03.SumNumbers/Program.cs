@@ -6,7 +6,20 @@ namespace _03.SumNumbers
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int targetSum = int.Parse(Console.ReadLine());
+            int sum = 0;
+
+            while (true)
+            {
+                int number = int.Parse(Console.ReadLine());
+                sum += number;
+
+                if (sum >= targetSum)
+                {
+                    Console.WriteLine(sum);
+                    break;
+                }
+            }
         }
     }
 }

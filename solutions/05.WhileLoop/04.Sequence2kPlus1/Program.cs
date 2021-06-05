@@ -6,7 +6,14 @@ namespace _04.Sequence2kPlus1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int endNumber = int.Parse(Console.ReadLine());
+            int currentNumber = 1;
+
+            while (currentNumber <= endNumber)
+            {
+                Console.WriteLine(currentNumber);
+                currentNumber = currentNumber * 2 + 1;
+            }
         }
     }
 }
