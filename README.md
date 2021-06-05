@@ -10,7 +10,7 @@ This repository contains the solution for the Lab exercises that were done durin
 | 2 | [Conditional Statements](./solutions/02.ConditionalStatements) | [Link](https://softuni.bg/trainings/3398/programming-basics-with-csharp-may-2021/internal#lesson-29365)| [Link](https://judge.softuni.bg/Contests/2369/Conditional-Statements-Lab) |
 | 3 | [Conditional Statements Advanced](./solutions/03.ConditionalStatementsAdvanced) | [Link](https://softuni.bg/trainings/3398/programming-basics-with-csharp-may-2021/internal#lesson-29367)|         [Link](https://judge.softuni.bg/Contests/2377/Conditional-Statements-Advanced-Lab)  |
 | 4 | [For Loops](./solutions/04.ForLoop) |   [Link](https://softuni.bg/trainings/3398/programming-basics-with-csharp-may-2021/internal#lesson-29369)   | [Link](https://judge.softuni.bg/Contests/2380/For-Loop-Lab)  |
-| 5 | [For Loops](./solutions/04.WhileLoop) | [Link](https://softuni.bg/trainings/3398/programming-basics-with-csharp-may-2021/internal#lesson-29371) | [Link](https://judge.softuni.bg/Contests/2383/While-Loop-Lab) |
+| 5 | [For Loops](./solutions/05.WhileLoop) | [Link](https://softuni.bg/trainings/3398/programming-basics-with-csharp-may-2021/internal#lesson-29371) | [Link](https://judge.softuni.bg/Contests/2383/While-Loop-Lab) |
 | 6 | TODO                      |      |       |
 | 7 | TODO                      |      |       |
 
